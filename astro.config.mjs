@@ -27,7 +27,7 @@ export default defineConfig({
 				},
 				{
 					label: 'FAQ',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'faq' },
 				},
 			],
 		}),

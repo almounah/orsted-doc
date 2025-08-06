@@ -33,3 +33,9 @@ orsted-client » interact
   5 - DESKTOP-DU89UIV\haroun@DESKTOP-DU89UIV - 192.168.122.76
   6 - DESKTOP-DU89UIV\haroun@DESKTOP-DU89UIV - 192.168.122.76
 ```
+
+After selecting Session 4 by scrolling and pressing Enter, we are no longer in the `Global Orsted Main Menu`, we entered the `Orsted Beacon Menu` 
+
+```bash
+[Session 4: haroun@DESKTOP-DU89UIV] »
+```
