@@ -34,7 +34,7 @@ Taken from `go-clr` package it is possible to execute dotnet assemblies inline o
 
 `orsted-client` was made using `grumble` go package. For any command, you can add `--help` after and get help.
 
-The `Tab` is enable and allow autocompletion.
+The `Tab` is enabled and allow autocompletion.
 
 - **Many more stuff**
 
@@ -43,3 +43,11 @@ The `Tab` is enable and allow autocompletion.
 `Orsted` was a project I did for fun on my own personal free time (I am not a redteamer but a humble pentester)
 
 It is still not in a stable release. Feel free to test it in a legal scope, but _spoiler alert_ don't be surprised if you find some bugs.
+
+Some missing features might come later. Mainly
+
+- orsted is now designed to be used by a single operator. Mutliple operator can still be used but is not user friendly yet (you will get notifed of other operator work)
+- smb support for windows
+- Syscall Unhooking via `superdeye` package
+- DNS listener
+- `orsted-beacon` authentication and authorization

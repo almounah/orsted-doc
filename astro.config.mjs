@@ -19,7 +19,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Windows Commands',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'windowscommands' },
 				},
 				{
 					label: 'Linux Commands',
