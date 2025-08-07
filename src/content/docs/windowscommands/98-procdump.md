@@ -31,4 +31,4 @@ For example
 [Session 11: haroun@DESKTOP-DU89UIV] » procdump 7655 /tmp/dump_7655
 ```
 
-You can use the `--native` flag to dump a procewss with indirect syscall.
+You can use the `--native` flag to dump a process with indirect syscall.

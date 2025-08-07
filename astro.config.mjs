@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Orsted C2 Documentation',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/almounah' }],
 			sidebar: [
 				{
 					label: 'Getting Started',
@@ -23,7 +23,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Linux Commands',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'linuxcommands' },
 				},
 				{
 					label: 'FAQ',
