@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://almounah.github.io/orsted-doc", // full site URL
+    base: "/orsted-doc/", // repo name
 	integrations: [
 		starlight({
 			title: 'Orsted C2 Documentation',
