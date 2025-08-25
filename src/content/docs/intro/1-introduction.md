@@ -10,6 +10,8 @@ Orsted C2 is a command an control framework I made for educational purposes.
 It consists of many `orsted-beacons` that communicates with each other and to the main `orsted-server`. An operator can interact with the `orsted-beacon` using the `orsted-client`.
 
 
+![image](../../../assets/orsted-homepage.png)
+
 ## Some Features
 
 - **By design Automatic Sandbox deception**
@@ -46,7 +48,7 @@ It is still not in a stable release. Feel free to test it in a legal scope, but 
 
 Some missing features might come later. Mainly
 
-- orsted is now designed to be used by a single operator. Mutliple operator can still be used but is not user friendly yet (you will get notifed of other operator work)
+- orsted is now designed to be used by a single operator. Mutliple operator can still happen but is not user friendly yet (you will get notifed of other operator work)
 - smb support for windows
 - Syscall Unhooking via `superdeye` package
 - DNS listener
