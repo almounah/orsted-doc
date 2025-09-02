@@ -10,9 +10,10 @@ description: credits
 - [Bishopfox](https://github.com/BishopFox/sliver) and `Sliver C2`
 - [mouhamadalmounayar](https://github.com/mouhamadalmounayar) for recommending [Astro Starlight](https://starlight.astro.build/) for this documentation
 - [nicocha30](https://github.com/nicocha30) for ligolo-ng
+- [ricardojoserf](https://github.com/ricardojoserf/NativeDump) for NativeDump
 
 
 
 ##### Side Note 
 
-If you believe I used your code and forgot to give you credits or did not respect some license don't hesitate to contact me. Mistakes happens ^^
+If you believe I used your code and forgot to give you credits or did not respect some license don't hesitate to contact me or submit a PR to this documentation.

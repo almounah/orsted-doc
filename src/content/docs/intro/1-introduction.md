@@ -26,7 +26,7 @@ Multiple ways to evade AMSI and ETW using indirect syscalls.
 
 It is possible to pivot and chains `orsted-beacon` together regardless of their transport protocol or the OS they are deployed on. 
 
-`Ligolo-ng` is natively supported (not by embedding ligolo executable) - see `autoroute (ligolo-ng)` section.
+`Ligolo-ng` is natively supported - see `autoroute (ligolo-ng)` section.
 
 - **Granular Inline-clr and In-Memory powershell execution**
 
@@ -42,9 +42,9 @@ The `Tab` is enabled and allow autocompletion.
 
 ## Important Notes
 
-`Orsted` was a project I did for fun on my own personal free time (I am not a redteamer but a humble pentester)
+`Orsted` was a project I did for fun on my own personal free time.
 
-It is still not in a stable release. Feel free to test it in a legal scope, but _spoiler alert_ don't be surprised if you find some bugs.
+It is still not in a stable release, even though I used it in few cases. Feel free to test it in a legal scope, and don't hesitate to report any bug by opening a github issue.
 
 Some missing features might come later. Mainly
 
@@ -53,3 +53,4 @@ Some missing features might come later. Mainly
 - Syscall Unhooking via `superdeye` package
 - DNS listener
 - `orsted-beacon` authentication and authorization
+- Unit tests, end to end tests, and tests in general
