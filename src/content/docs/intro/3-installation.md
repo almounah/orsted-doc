@@ -16,15 +16,6 @@ sudo apt install gcc-mingw-w64
 ```
 
 
-PS: 
-
-If you want to re-compile protobuf (not needed to run orsted) you need to install 
-
-```bash
-sudo apt install protoc-gen-go-grpc
-sudo apt install protoc-gen-go
-```
-
 ## Compiling
 
 It should be pretty straight forward to compile Orsted C2.
@@ -32,6 +23,8 @@ It should be pretty straight forward to compile Orsted C2.
 Just `cd` into the root directory and run:
 
 ```bash
+git clone git@github.com:almounah/orsted.git
+cd orsted
 ./compile.sh all
 ```
 
@@ -43,7 +36,7 @@ This will compile the `orsted-server` and `orsted-client` and all the modules fo
 You can then start the server (need `sudo` to listen on 443 and 80 later)
 
 ```bash
-sudo ./orsted-server
+sudo ./orsted-server run
 ```
 
 The server will then start on `0.0.0.0:50051`.
@@ -115,6 +108,15 @@ Examples:
   ./compile.sh server-client
   ./compile.sh all
   ./compile.sh protobuf
+```
+
+PS: 
+
+If you want to re-compile protobuf (not needed to run orsted) you need to install 
+
+```bash
+sudo apt install protoc-gen-go-grpc
+sudo apt install protoc-gen-go
 ```
 
 ### Some notes on compiling the Beacon
