@@ -75,3 +75,35 @@ orsted-client » generate beacon linux http 192.168.122.45:80
 ```
 
 `main_http` will be generated.
+
+
+### Proxy Options
+
+It is possible to add proxy when generating a Beacon. This work only for HTTP beacon.
+
+```
+orsted-client » generate beacon --help
+
+generate beacon (HTTP, HTTPS, TCP or SMB _ windows only _
+
+Usage:
+  beacon [flags] os type address
+
+Args:
+  os       string    windows or linux
+  type     string    http[                   dll svc] https[ dll svc] tcp[ dll svc] or smb[ dll svc]
+  address  string    address for http or tcp
+
+Flags:
+  -h, --help                          display help
+  -a, --http-proxy-address  string    URL for example 127.0.0.1:8080
+  -p, --http-proxy-password string    Proxy Password
+  -t, --http-proxy-type     string    HTTP Proxy Type, can be HTTP or HTTPS (default: none)
+  -u, --http-proxy-username string    Proxy Username
+```
+
+For example
+
+```
+orsted-client » generate beacon --http-proxy-type http --http-proxy-address 192.168.122.45:8080 windows http 192.168.122.45:80
+```
