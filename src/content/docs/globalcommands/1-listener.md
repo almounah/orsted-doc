@@ -43,7 +43,7 @@ The machine on which `orsted-server` is running will start the listener.
 You can stop a listener by giving it the `Id` of the listener.
 
 ```bash
-orsted-client » listener stop -i 2
+orsted-client » listener stop 2
 ```
 
 All the `orsted-beacon` having a path to the listener might die.

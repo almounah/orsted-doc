@@ -11,6 +11,8 @@ description: credits
 - [mouhamadalmounayar](https://github.com/mouhamadalmounayar) for recommending [Astro Starlight](https://starlight.astro.build/) for this documentation
 - [nicocha30](https://github.com/nicocha30) for ligolo-ng
 - [ricardojoserf](https://github.com/ricardojoserf/NativeDump) for NativeDump
+- [Jimmy Fjällid](https://github.com/jfjallid/go-secdump) for go-secdump that inspired silph
+- [Leon Weinmann](https://shigshag.com/blog/amsi_page_guard) for his AMSI Bypass 
 
 
 
