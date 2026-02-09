@@ -95,6 +95,12 @@ orsted-client » session stop 4
 Stopped session 4
 ```
 
+You can also give a session range. For example the following will stop all session from 5 to 50 included.
+
+```bash
+orsted-client » session stop 5-50
+```
+
 ### Session Interact
 
 It is possible to interact with a session through the session command.

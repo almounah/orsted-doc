@@ -84,11 +84,11 @@ The result will be something like
 
 ```
 orsted-client » autoroute list
-+----------+-----------+-------------------------------+
-| ROUTE ID | BEACON ID |            SUBNET             |
-+----------+-----------+-------------------------------+
-|        1 |         8 | 172.25.144.0/20, 240.0.0.1/32 |
-+----------+-----------+-------------------------------+
++----------+-----------+-------------------------------+-----------------------------+
+| ROUTE ID | BEACON ID |            SUBNET             | RPORTFWD (LOCAL <-> REMOTE) |
++----------+-----------+-------------------------------++----------------------------+
+|        1 |         8 | 172.25.144.0/20, 240.0.0.1/32 |                             | 
++----------+-----------+-------------------------------+-----------------------------+
 ```
 
 
@@ -100,4 +100,4 @@ You can delete an autoroute by giving the Beacon ID (and not Route ID) as well a
 orsted-client » autoroute delete 8 172.25.144.0/20
 ```
 
-If the subnet is empty for a specific route, the `tun` will be deleted, you may need to wait 1 min to be able to ligolo again.
+If the SUBNET is empty for a specific route as well as the RPORTWD, the `tun` will be deleted, you may need to wait 1 min to be able to ligolo again (in very few edge cases).

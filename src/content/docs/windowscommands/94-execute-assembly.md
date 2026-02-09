@@ -11,9 +11,9 @@ descripton: orsted c2 execute-assembly
 It is the classic fork and run.
 
 ```
-[Session 9: haroun@DESKTOP-DU89UIV] » execute-assembly --help
+[Session 73: haroun@DESKTOP-DU89UIV] » execute-assembly --help
 
-Load and Execute NET Assembly with donut
+Load and Execute Exe with donut
 
 Usage:
   execute-assembly [flags] file [args...]
@@ -23,9 +23,10 @@ Args:
   args  string list    Argument of the Assembly
 
 Flags:
-  -h, --help              display help
-  -m, --method  string    Method to load Assembly (default: 1)
-  -p, --process string    Sacrificial Process (default: C:\Windows\System32\notepad.exe)
+  -b, --background           If specified, run process in background without waiting for output. Usefull when migrating or using Potatoes.
+  -h, --help                 display help
+  -m, --method     string    Method to load Assembly (default: 1)
+  -p, --process    string    Sacrificial Process (default: C:\Windows\System32\notepad.exe)
 ```
 
 It requires you to load the `execute-assembly` dll with `load-module execute-assembly`
@@ -78,4 +79,12 @@ Action: Triage Kerberos Tickets (Current User)
 
 ```
 
+If you specify the `--background` flag, the output will not printed. This is usefull in case you don't want to block your beacon, for example when running another beacon through a potato.
+
+
+`execute-assembly` will look for the executable in three places:
+
+- `NetAssemblyPath` (default value `./tools/windows/dotnet/` specified in `data/clientconf.toml`
+- `ExePath` (default value `./tools/windows/exe/` specified in `data/clientconf.toml`
+- And in `.`
 
